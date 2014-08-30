@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practice4Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+    
+	<string name="intro">nothing here!</string>
+	<string name="btn_component">基本组件</string>
+	<string name="btn_activity">Activity</string>
+	<string name="btn_layout">布局</string>
+	<string name="layout_app">layout</string>
+	<string name="other_app">other</string>
+	
+	<string name="app_textview">Button Action</string>
+	<string name="appbtn1">Button1</string>
+	<string name="appbtn2">Button2</string>
+	<string name="appbtn3">Button3</string>
+	<string name="appbtn4">Button4</string>
+	
+	
+	
+</resources>

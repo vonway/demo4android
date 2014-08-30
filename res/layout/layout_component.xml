@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:scrollbarStyle="insideOverlay"
+	    android:scrollbars="vertical" >
+ 
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+		<TextView 
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="#ff0000"
+        android:text="This is a TextView"
+        />
+    <EditText 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+	<EditText 
+	    android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+       	android:hint="input sth "
+	    />
+	<Button 
+	    android:id="@+id/button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:drawableLeft="@drawable/icon"
+	    android:text="Button"
+	    />
+	<ToggleButton 
+	    android:id="@+id/tbutton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:textOn="on"
+	    android:textOff="off"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="check"
+	    />
+	<RadioGroup 
+	    android:id="@+id/rg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    >
+		    <RadioButton
+		        android:id="@+id/rg1"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"
+		    	android:text="Radio 1"
+		    	android:onClick="onRadioButtonClicked"
+		    />
+		    <RadioButton
+		        android:id="@+id/rg2"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"
+		    	android:text="Radio 2"
+		    	android:onClick="onRadioButtonClicked"
+		    />
+		    <RadioButton
+		        android:id="@+id/rg3"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"
+		    	android:text="Radio 3"
+		    	android:onClick="onRadioButtonClicked"
+		    />
+		    <RadioButton
+		        android:id="@+id/rg4"
+		        android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"
+		    	android:text="Radio 3"
+		    	android:onClick="onRadioButtonClicked"
+		    />
+	    </RadioGroup>
+		<RadioGroup 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:orientation="horizontal"
+	    
+	    >
+		    <RadioButton
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="left"
+		    	android:text="Radio A"
+		    />
+		    <RadioButton
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="center_horizontal"
+		    	android:text="Radio B"
+		    />
+		    <RadioButton
+		        android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_gravity="right"
+		    	android:text="Radio C"
+		    />
+		   
+	    </RadioGroup>
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	<CheckBox 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Check Box"
+	    />
+	
+	
+
+	
+	
+	
+	
+	
+</LinearLayout>
+	</ScrollView>

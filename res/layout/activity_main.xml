@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView 
+    android:id="@+id/intro"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:text="@string/intro"
+    />
+<Button 
+    android:id="@+id/btn_component"
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_component"
+    />
+<Button 
+    android:id="@+id/btn_activity"
+   	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_activity"
+    />
+<Button 
+    android:id="@+id/btn_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_layout"
+    />
+<Button 
+    android:id="@+id/layout_app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/layout_app"
+    />
+<Button 
+    android:id="@+id/other_app"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/other_app"
+    />
+<Button 
+    android:id="@+id/notification"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Notification"
+    />
+<Button 
+    android:id="@+id/service"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="service"
+    />    
+</LinearLayout>
